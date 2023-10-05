@@ -23,8 +23,6 @@
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <!-- Canvas -->
 <canvas class="orb-canvas"></canvas>
-	
- <div class="overlay">
 	  <div class="navbar" id="navbar">
     <span id="extra" style="order: 99999;"></span>
     <a href="javascript:openapp('home','');" class="iconbtn">
@@ -58,11 +56,22 @@
       </span>
     </a> 
     
-  </div>
+  </div>	
+ <div class="overlay">
+	 
 
   <div class="main" id="main">
     <div id="home" class="app">
-      <span class="confont">
+	     <!-- Overlay inner wrapper -->
+  <div class="overlay__inner">
+    <!-- Title -->
+    <h1 class="overlay__title">
+      Hello welcome to LHBOS the changing 
+      <span class="text-gradient">experience for school chromebooks</span> of games
+    </h1>
+    <!-- Description -->
+    <p class="overlay__description">
+           <span class="confont">
         <b>WELCOME TO LightHome Brew OS</b>
         <br>
         LightHome Brew OS is like a mini OS in your browser. It has unblocked games, apps, and tools!
@@ -73,6 +82,13 @@
        <br>
        
       </span>
+    </p>
+    <!-- Buttons -->
+
+     
+    </div>
+  </div>
+
     </div>
     <iframe style="display: none;" class="app" id="notepad" src="about:blank"></iframe>
     <iframe style="display: none;" class="app" id="discord" src="about:blank"></iframe>
