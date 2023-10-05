@@ -11,7 +11,7 @@
   <link href="css/appstyle.css" rel="stylesheet" id="stylesheet" type="text/css">
 	  <link href="css/island.css" rel="stylesheet" id="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" class="donotremove-ss">
-<script src="https://xunlocknetworkenterprise.github.io/script.js"></script>
+<script type="module" src="https://xunlocknetworkenterprise.github.io/script.js"></script>
 
   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   <script src="js/FirmwareUpdated.js"></script>
@@ -24,7 +24,8 @@
 <!-- Canvas -->
 <canvas class="orb-canvas"></canvas>
 	
-  <div class="navbar" id="navbar">
+ <div class="overlay">
+	  <div class="navbar" id="navbar">
     <span id="extra" style="order: 99999;"></span>
     <a href="javascript:openapp('home','');" class="iconbtn">
       <span class="material-symbols-outlined" style="vertical-align: middle; background-color: rgba(0, 0, 0, 0);color: black; font-size: 24px; width: 4px; text-indent: -4px;">
@@ -344,5 +345,5 @@ navigator.getBattery()
   </div>
   
   <script src="js/LHBOS.js"></script>
-
+ </div>
 </body></html>
