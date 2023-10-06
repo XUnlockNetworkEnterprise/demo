@@ -36,14 +36,8 @@ function uninstallApp(e) {
 
 function openapp(e, t) {
     var a = document.getElementById("main");
-  if (e == "games")
-  {
-  backgroundmusic.pause();
-  }
-  else
-  {
+
      backgroundmusic.play();
-  }
     for (const e of a.children) e.style = "display: none;";
     if (null != (e = document.getElementById(e))) {
         if ("IFRAME" == e.nodeName && "about:blank" == e.src && (e.src = t), "flashgame" == e.id) e.remove(), (e = document.createElement("embed")).id = "flashgame", e.className = "app", e.src = t, document.getElementById("main").appendChild(e);
