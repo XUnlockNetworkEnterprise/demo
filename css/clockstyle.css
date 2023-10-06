@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-  background-color: black;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(86,45,253,1) 100%);
 }
 
 body {
   margin: 0;
-  background-color: black !important;
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(86,45,253,1) 100%);
   color: whitesmoke;
   font-family: Roboto, Arial, sans-serif;
 }
