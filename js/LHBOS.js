@@ -6,7 +6,7 @@ var pass = prompt('enter authentication passcode');
   } else { 
     window.location="https://xunlocknetworkenterprise.github.io/";
   }
-const backgroundmusic = new Audio("https://vgmsite.com/soundtracks/wii-u-system-audio-background-music/zqypzexecg/04.%20System%20Music%20-%20First%20Time%20Setup%20%28Gamepad%29.mp3")
+const backgroundmusic = new Audio("https://xunlocknetworkenterprise.github.io/49%20-%20Mii%20Maker%20-%20Editing%20a%20Mii%20Gamepad.mp3")
 backgroundmusic.play();
 backgroundmusic.loop = true;
 if (alert(localStorage.getItem("theme")), null == localStorage.getItem("theme") && (localStorage.setItem("theme", "https://xunlocknetworkenterprise.github.io/demo/css/clockstyle.css"), localStorage.setItem("facReset", "false")), (localStorage.getItem("theme").length < 7 || "true" == localStorage.getItem("facReset")) && (localStorage.setItem("theme", "https://xunlocknetworkenterprise.github.io/demo/css/clockstyle.css"), localStorage.setItem("facReset", "false")), addTheme(localStorage.getItem("theme")), null == (apps = JSON.parse(localStorage.getItem("apps")))) {
