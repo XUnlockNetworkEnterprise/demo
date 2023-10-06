@@ -1,5 +1,5 @@
 
-var pass1 = "2279"
+var pass1 = "05/20/12"
 var pass = prompt('enter authentication passcode');
   if (pass == pass1)
   {
