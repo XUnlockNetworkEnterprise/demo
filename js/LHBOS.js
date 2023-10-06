@@ -36,6 +36,14 @@ function uninstallApp(e) {
 
 function openapp(e, t) {
     var a = document.getElementById("main");
+  if (e == "games")
+  {
+  backgroundmusic.stop();
+  }
+  else
+  {
+     backgroundmusic.play();
+  }
     for (const e of a.children) e.style = "display: none;";
     if (null != (e = document.getElementById(e))) {
         if ("IFRAME" == e.nodeName && "about:blank" == e.src && (e.src = t), "flashgame" == e.id) e.remove(), (e = document.createElement("embed")).id = "flashgame", e.className = "app", e.src = t, document.getElementById("main").appendChild(e);
@@ -45,6 +53,10 @@ function openapp(e, t) {
 }
 
 function closeApp(e) {
+  if (e == "games")
+  {
+  backgroundmusic.play();
+  }
     null != (e = document.getElementById(e)) ? ("IFRAME" == e.nodeName && (e.src = "about:blank"), e.style = "display: none;") : console.log("// ERROR \nApp of name does not exist")
 }
 
