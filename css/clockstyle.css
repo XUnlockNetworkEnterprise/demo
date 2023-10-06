@@ -16,6 +16,8 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(86,45,253,1) 100%)
 .main {
   padding: 3px;
   margin-bottom: 34px;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(86,45,253,1) 100%);
 }
 
 .navbar {
