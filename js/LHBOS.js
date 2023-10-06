@@ -38,7 +38,7 @@ function openapp(e, t) {
     var a = document.getElementById("main");
   if (e == "games")
   {
-  backgroundmusic.stop();
+  backgroundmusic.pause();
   }
   else
   {
